@@ -1,6 +1,6 @@
 @echo off
 setlocal
-set CC=C:\TEMP\ia16\ia16-elf\bin\ia16-elf-gcc.exe
+set CC=.\ia16-elf\bin\ia16-elf-gcc.exe
 if not exist "%CC%" (
   echo ia16-elf-gcc not found at %CC%
   exit /b 1
