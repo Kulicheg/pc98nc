@@ -1,0 +1,98 @@
+/*
+ * Copyright (c) 2022 TK Chia
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are
+ * met:
+ *
+ *   * Redistributions of source code must retain the above copyright
+ *     notice, this list of conditions and the following disclaimer.
+ *   * Redistributions in binary form must reproduce the above copyright
+ *     notice, this list of conditions and the following disclaimer in the
+ *     documentation and/or other materials provided with the distribution.
+ *   * Neither the name of the developer(s) nor the names of its
+ *     contributors may be used to endorse or promote products derived from
+ *     this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
+ * IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+ * TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+ * PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT
+ * HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+ * TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ * PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+#ifndef _LIBI86_PROCESS_H_
+#define _LIBI86_PROCESS_H_
+
+#include <libi86/internal/acconfig.h>
+#include <libi86/internal/cdefs.h>
+#include <libi86/internal/libc-defer.h>
+
+_LIBI86_BEGIN_EXTERN_C
+
+_LIBI86_LIBC_DEFER_0 (__libi86_pid_t, getpid, yes)
+_LIBI86_LIBC_DEFER_STD_1 (int, system, const char *, yes)
+extern __libi86_pid_t _spawnl (int, const char *, const char *, ...)
+		      _LIBI86_SENTINEL0;
+extern __libi86_pid_t _spawnle (int, const char *, const char *, ...)
+		      _LIBI86_SENTINEL1;
+extern __libi86_pid_t _spawnlp (int, const char *, const char *, ...)
+		      _LIBI86_SENTINEL0;
+extern __libi86_pid_t _spawnlpe (int, const char *, const char *, ...)
+		      _LIBI86_SENTINEL1;
+extern __libi86_pid_t _spawnv (int, const char *, const char * const *);
+extern __libi86_pid_t _spawnve (int, const char *,
+				const char * const *, const char * const *);
+extern __libi86_pid_t _spawnvp (int, const char *, const char * const *);
+extern __libi86_pid_t _spawnvpe (int, const char *,
+				 const char * const *, const char * const *);
+#ifndef _LIBI86_COMPILING_
+_LIBI86_REDIRECT_3 (__libi86_pid_t, spawnv, int, const char *,
+		    const char * const *, _spawnv)
+_LIBI86_REDIRECT_4 (__libi86_pid_t, spawnve, int, const char *,
+		    const char * const *, const char * const *, _spawnve)
+_LIBI86_REDIRECT_3 (__libi86_pid_t, spawnvp, int, const char *,
+		    const char * const *, _spawnvp)
+_LIBI86_REDIRECT_4 (__libi86_pid_t, spawnvpe, int, const char *,
+		    const char * const *, const char * const *, _spawnvpe)
+#endif
+
+#define _P_WAIT		0
+#define P_WAIT		_P_WAIT
+
+/*
+ * Special libi86-specific flags for the _spawn... (...) MODE.
+ *
+ *   * _P_RESTRICT_EXT: do not blindly allow any file extension --- or lack
+ *     thereof --- in the program PATH.  If the PATH has no file extension,
+ *     always add an extension to it.  If the PATH does have an extension,
+ *     it _must_ have a known type of executable file extension.
+ *
+ *   * _P_OPT_C_SPECIAL: treat e.g.  `command.com /c ...', where `...' is
+ *     exactly one argument, as a special case: treat the argument as the
+ *     complete command line, rather than the name of a script, & quote it
+ *     accordingly.
+ *
+ *   * _P_INTERP: treat PATH as a command interpreter path: never add an
+ *     extension to PATH, & never treat it as a script that needs a
+ *     (different) interpreter.
+ *
+ * Currently, _P_RESTRICT_EXT is kind of meant for general use, while
+ * _P_OPT_C_SPECIAL & _P_INTERP are "private" flags meant for system (.).
+ */
+#define _P_RESTRICT_EXT		(1 <<  6)
+#define _P_OPT_C_SPECIAL	(1 << 15)
+#define _P_INTERP		(1 << 14)
+
+/* For testing purposes. */
+extern __libi86_pid_t __libi86_getpid (void);
+
+_LIBI86_END_EXTERN_C
+
+#endif

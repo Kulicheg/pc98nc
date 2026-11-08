@@ -1,0 +1,362 @@
+/*
+ * Linker script for small-model CauseWay DOS extender 3P 16-bit
+ * executables.
+ *
+ * WARNING: the internals of this linker script are extremely experimental,
+ * and subject to change.
+ *
+ * Partly derived from elks-separate.ld .  Generated from dx-ms.ld.in.
+ */
+
+OUTPUT_FORMAT(elf32-i386)
+ENTRY(_start)
+
+PHDRS
+  {
+    causeway PT_LOAD;
+    text PT_LOAD;
+    fartext PT_LOAD;
+    fardata PT_LOAD;
+    data_start PT_LOAD;
+    data PT_LOAD;
+    rel PT_LOAD;
+  }
+
+SECTIONS
+  {
+    .head 0x100000 - 0x50 : {
+		*(.head) *(.head.*)
+		. = .;
+	} :causeway
+
+    /* Fabricate a CauseWay 3P header here. */
+    .3p_hdr . : {
+		HIDDEN (__3p_hdr_start = .);
+
+		/* Signature. */
+		SHORT (0x5033)
+		/* Size of this 3P module. */
+		LONG (ADDR (.data) + SIZEOF (.data) - ADDR (.3p_hdr))
+		/* Size of program image. */
+		LONG (ADDR (.data) + SIZEOF (.data) - ADDR (.text))
+		/* Program memory required. */
+		LONG (ADDR (.data) + 0x10000 - ADDR (.text))
+		/* Number of segment definitions. */
+		SHORT (2)
+		/* Number of relocation table entries. */
+		LONG (0)
+		/* Initial %cs:%eip. */
+		LONG (_start - "_start!")
+		SHORT (0)
+		/* Initial %ss:%esp. */
+		LONG (0xfffe)
+		SHORT (1)
+		/*
+		 * Executable flags:
+		 *   * bit 0: 16-bit interrupt stack frame
+		 *   * bit 7: use LDT, not GDT
+		 *   * bit 14: 16-bit default data size
+		 *   * bit 16: dual mode (can run under 16- or 32-bit DPMI)
+		 */
+		PROVIDE_HIDDEN (__dosx_prefer_dpmi32 = 0);
+		PROVIDE_HIDDEN (__dosx_dual_mode = __dosx_prefer_dpmi32);
+		LONG ((! __dosx_prefer_dpmi32) << 0 | 1 << 7 | 1 << 14
+		      | __dosx_dual_mode << 16)
+		/* Automatic stack size if initial %esp == 0. */
+		LONG (0)
+		/* Number of automatic data segments + 1, or 0 if none. */
+		SHORT (0)
+		/* Length of EXPORT section. */
+		LONG (0)
+		/* Length of IMPORT section. */
+		LONG (0)
+		/* Number of IMPORT modules. */
+		LONG (0)
+		/* Reserved. */
+		. = . + 10;
+
+		/* Segment definition for initial %cs. */
+		LONG ("__stext!" - __3p_load_start)
+		LONG (("__stext&" - "__stext!") | 0 << 21 | 1 << 25)
+
+		/* Segment definition for initial %ds == %ss. */
+		LONG ("__sdata!" - __3p_load_start)
+		LONG (0x10000 | 1 << 21 | 1 << 25)
+
+		. = .;
+		HIDDEN (__3p_load_start = .);
+	} :causeway
+
+    /* segelf segment start markers for target text section.  */
+    ".text!" (__3p_load_start & -0x10) (NOLOAD) : {
+		/* segelf segment start markers. */
+		"__stext!" = .;
+		*(".startupA!*")
+		*(".startupB!*")
+		*(".startupC!*")
+		*(".msdos_init!*") *(".msdos_init.*!")
+		*(".msdos_initA!*") *(".msdos_initA.*!")
+		*(".startupD!*")
+		*(".msdos_initB!*") *(".msdos_initB.*!")
+		*(".startupE!*")
+		*(".init!*")
+		*(".startupF!*")
+		*(".exitA!*")
+		*(".fini!*")
+		*(".exitB!*")
+		*(".text!*") *(".text.*!")
+		. = .;
+		"__etext!" = .;
+
+		ASSERT ("__stext!" == "__etext!",
+		    "Error: .text! section has non-zero length.");
+	} :text
+
+    /* Target text section.  */
+    .text __3p_load_start : {
+		__stext = .;
+		*(.startupA)
+		*(.startupB)
+		*(.startupC)
+		*(.msdos_init) *(.msdos_init$) *(.msdos_init.)
+		*(SORT (".msdos_init.*[^&]"))
+		*(.msdos_initA) *(.msdos_initA$) *(.msdos_initA.)
+		*(SORT (".msdos_initA.*[^&]"))
+		*(.startupD)
+		*(.msdos_initB) *(.msdos_initB$) *(.msdos_initB.)
+		*(SORT (".msdos_initB.*[^&]"))
+		*(.startupE)
+		*(.init)
+		*(.startupF)
+		*(.exitA)
+		*(.fini)
+		*(.exitB)
+		*(.text) *(.text$) *(.text.) *(SORT (".text.*[^&]"))
+		. = .;
+		__etext = .;
+
+		ASSERT (. - "__stext!" <= 0x10000,
+		    "Error: too large for a small-model CauseWay 3P file.");
+	} :text
+
+    /* segelf segment end markers for target text section.  */
+    ".text&" (NOLOAD) : {
+		"__stext&" = .;
+		*(".startupA&*")
+		*(".startupB&*")
+		*(".startupC&*")
+		*(".msdos_init&*") *(".msdos_init.*&")
+		*(".msdos_initA&*") *(".msdos_initA.*&")
+		*(".startupD&*")
+		*(".msdos_initB&*") *(".msdos_initB.*&")
+		*(".startupE&*")
+		*(".init&*")
+		*(".startupF&*")
+		*(".exitA&*")
+		*(".fini&*")
+		*(".exitB&*")
+		*(".text&*") *(".text.*&")
+		. = .;
+		"__etext&" = .;
+
+		ASSERT ("__stext&" == "__etext&",
+		    "Error: .text& section has non-zero length.");
+	} :text
+
+	__ltext = __etext - __stext;
+	"__ltext!" = 0;
+
+    /*
+     * Sections for far text, far read-only data, & far read/write data.
+     *
+     * FIXME: These output section definitions are not actually supported at
+     * the moment.  They are here to ease future expansion.  Hopefully a
+     * future ELF-to-3P converter can properly process such ELF sections
+     * and turn them into 3P segments.
+     */
+
+    .fartext ALIGN (0x10) : SUBALIGN (0x10) {
+		*(SORT (".fartext!*"))
+		*(SORT (".fartext$*"))
+		*(SORT (".fartext&*"))
+		*(SORT (".fartext.*"))
+		. = .;
+	} :fartext
+
+    .farrodata ALIGN (0x10) : SUBALIGN (0x10) {
+		*(SORT (".farrodata!*"))
+		*(SORT (".farrodata$*"))
+		*(SORT (".farrodata&*"))
+		*(SORT (".farrodata.*"))
+		. = .;
+	} :fardata
+
+    .fardata ALIGN (0x10) : SUBALIGN (0x10) {
+		__sfdata = .;
+		*(SORT (".fardata!*"))
+		*(SORT (".fardata$*"))
+		*(SORT (".fardata&*"))
+		*(SORT (".fardata.*"))
+		. = .;
+		__efdata = .;
+	} :fardata
+
+    /*
+     * segelf segment start markers for target data section.  Arrange for
+     * the actual data content to start at a non-zero offset, so that we
+     * can ask the DPMI host to designate offset 0 as an invalid address.
+     *
+     * We pretend that .data! is "loaded" at an address that differs from
+     * its virtual address, to keep the gold linker happy.  This is OK,
+     * because .data! is empty & so we do not really load anything.
+     */
+    ".data!" ((__efdata - 0x20) & -0x10) : AT (ALIGN (__efdata, 4)) {
+		"__sdata!" = .;
+		KEEP (*(".ctors!*" ".ctors.*!"))
+		KEEP (*(".dtors!*" ".dtors.*!"))
+		*(".msdos_init_rodata!*") *(".msdos_init_rodata.*!")
+		*(".rodata!*") *(".rodata.*!")
+		*(".data!*") *(".data.*!")
+		*(".gcc_except_table!*")
+		"__edata!" = .;
+		*(".bss!*") *(".bss.*!")
+		"__sbss!" = .;
+		"__ebss!" = .;
+		"__heap_end_minimum!" = .;
+		. = .;
+
+		ASSERT ("__sdata!" == "__edata!",
+		    "Error: .data! section has non-zero length.");
+	} :data_start
+
+    /* Target data section.  */
+    .data ALIGN (__efdata, 4) : AT (ALIGN (__efdata, 4)) {
+		__sdata = .;
+
+		/* Build lists of constructors and destructors.  */
+		KEEP (*crtbegin*.o(.ctors))
+		KEEP (*(EXCLUDE_FILE (*crtend*.o ) .ctors))
+		KEEP (*(EXCLUDE_FILE (*crtend*.o ) .ctors$))
+		KEEP (*(EXCLUDE_FILE (*crtend*.o ) .ctors.))
+		KEEP (*(EXCLUDE_FILE (*crtend*.o ) SORT (".ctors.*[^&]")))
+		KEEP (*(.ctors))
+		KEEP (*(.ctors$))
+		KEEP (*(.ctors.))
+		KEEP (*(SORT(".ctors.*[^&]")))
+
+		KEEP (*crtbegin*.o(.dtors))
+		KEEP (*(EXCLUDE_FILE (*crtend*.o ) .dtors))
+		KEEP (*(EXCLUDE_FILE (*crtend*.o ) .dtors$))
+		KEEP (*(EXCLUDE_FILE (*crtend*.o ) .dtors.))
+		KEEP (*(EXCLUDE_FILE (*crtend*.o ) SORT (".dtors.*[^&]")))
+		KEEP (*(.dtors))
+		KEEP (*(.dtors$))
+		KEEP (*(.dtors.))
+		KEEP (*(SORT(".dtors.*[^&]")))
+
+		*(.msdos_init_rodata)
+		*(.msdos_init_rodata$)
+		*(.msdos_init_rodata.)
+		*(SORT (".msdos_init_rodata.*[^&]"))
+		*(.rodata) *(.rodata$) *(.rodata.) *(SORT (".rodata.*[^&]"))
+		*(.autofloat_stdio.__ia16_have_printf_float.dprintf.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float._dprintf_r.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float.vdprintf.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float._vdprintf_r.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float.sprintf.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float._sprintf_r.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float.fprintf.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float._fprintf_r.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float.printf.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float._printf_r.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float.snprintf.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float._snprintf_r.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float.asprintf.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float._asprintf_r.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float.asnprintf.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float._asnprintf_r.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float.vprintf.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float._vprintf_r.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float.vfprintf.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float._vfprintf_r.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float.vsprintf.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float._vsprintf_r.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float.vsnprintf.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float._vsnprintf_r.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float.vasprintf.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float._vasprintf_r.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float.vasnprintf.v2)
+		*(.autofloat_stdio.__ia16_have_printf_float._vasnprintf_r.v2)
+		*(.autofloat_stdio.__ia16_have_scanf_float.sscanf.v2)
+		*(.autofloat_stdio.__ia16_have_scanf_float._sscanf_r.v2)
+		*(.autofloat_stdio.__ia16_have_scanf_float.fscanf.v2)
+		*(.autofloat_stdio.__ia16_have_scanf_float._fscanf_r.v2)
+		*(.autofloat_stdio.__ia16_have_scanf_float.scanf.v2)
+		*(.autofloat_stdio.__ia16_have_scanf_float._scanf_r.v2)
+		*(.autofloat_stdio.__ia16_have_scanf_float.vscanf.v2)
+		*(.autofloat_stdio.__ia16_have_scanf_float._vscanf_r.v2)
+		*(.autofloat_stdio.__ia16_have_scanf_float.vfscanf.v2)
+		*(.autofloat_stdio.__ia16_have_scanf_float._vfscanf_r.v2)
+		*(.autofloat_stdio.__ia16_have_scanf_float.vsscanf.v2)
+		*(.autofloat_stdio.__ia16_have_scanf_float._vsscanf_r.v2)
+		. = .;
+		*(.data) *(.data$) *(.data.) *(SORT (".data.*[^&]"))
+		*(.gcc_except_table)
+		__edata = .;
+
+		. = .;
+	} :data
+
+    /* Target BSS section.  */
+    .bss ALIGN (__edata, 4) (NOLOAD) : {
+		__sbss = .;
+                *(.bss) *(.bss$) *(.bss.) *(SORT(".bss.*[^&]"))
+                *(COMMON)
+                __ebss = .;
+
+                /* Minimum address allowed for sbrk() to use.  */
+		. = .;
+                __heap_end_minimum = ALIGN(8);
+
+		ASSERT(. - "__sdata!" <= 0xfd00,
+		    "Error: too large for a small-model CauseWay 3P file.");
+		ASSERT (! DEFINED (main) || DEFINED ("main!"),
+		    "Error: using segelf ld script with non-segelf program.");
+		ASSERT (! DEFINED (_start) || DEFINED ("_start!"),
+		    "Error: using segelf ld script with non-segelf program.");
+		ASSERT (! DEFINED (environ) || DEFINED ("environ!"),
+		    "Error: using segelf ld script with non-segelf library.");
+	} :data
+
+    /* segelf segment end markers for target data section.  */
+    ".data&" __ebss (NOLOAD) : {
+		/* segelf segment end markers. */
+		"__sdata&" = .;
+		KEEP (*(".ctors&*" ".ctors.*&"))
+		KEEP (*(".dtors&*" ".dtors.*&"))
+		*(".msdos_init_rodata&*") *(".msdos_init_rodata.*&")
+		*(".rodata&*") *(".rodata.*&")
+		*(".data&*") *(".data.*&")
+		*(".gcc_except_table&*")
+		"__edata&" = .;
+		*(".bss&*") *(".bss.*&")
+		"__sbss&" = .;
+		"__ebss&" = .;
+		"__heap_end_minimum&" = .;
+		. = .;
+
+		ASSERT ("__sdata&" == "__edata&",
+		    "Error: .data& section has non-zero length.");
+	} :data
+
+	__ldata = __edata - __sdata;
+	__lbss = (__ebss - __sbss + 1) / 2;
+	"__ldata!" = 0;
+	"__lbss!" = 0;
+
+    .rel.dyn ALIGN (__ebss, 0x10) : {
+		*(.rel.*)
+	} :rel
+
+    /DISCARD/ : { *(.*) }
+  }
