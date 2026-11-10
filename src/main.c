@@ -9,6 +9,7 @@ int g_cmdlen;
 char g_msg[80];
 
 static char g_comspec[80];
+static char g_editor[48];
 
 static void cwd_full(char *dst)
 {
@@ -24,6 +25,125 @@ static void cwd_full(char *dst)
 	dst[3] = 0;
 	if (rest[0] && strlen(rest) + 4 < PATH_MAX)
 		strcat(dst, rest);
+}
+
+static void ini_line(char *s)
+{
+	char *val;
+	char *end;
+
+	while (*s == ' ' || *s == '\t')
+		s++;
+	if (*s == 0 || *s == ';' || *s == '#')
+		return;
+	val = s;
+	while (*val && *val != '=')
+		val++;
+	if (*val != '=')
+		return;
+	*val++ = 0;
+	end = s + strlen(s);
+	while (end > s && (end[-1] == ' ' || end[-1] == '\t'))
+		end--;
+	*end = 0;
+	while (*val == ' ' || *val == '\t')
+		val++;
+	end = val + strlen(val);
+	while (end > val && (end[-1] == ' ' || end[-1] == '\t'))
+		end--;
+	*end = 0;
+	if (namecmp(s, "editor") == 0 && val[0]) {
+		strncpy(g_editor, val, sizeof(g_editor) - 1);
+		g_editor[sizeof(g_editor) - 1] = 0;
+	}
+}
+
+static void ini_parse(char *buf)
+{
+	char *s;
+
+	s = buf;
+	while (*s) {
+		char *eol;
+		char cut;
+
+		eol = s;
+		while (*eol && *eol != '\n' && *eol != '\r')
+			eol++;
+		cut = *eol;
+		*eol = 0;
+		ini_line(s);
+		if (cut == 0)
+			break;
+		s = eol + 1;
+		if (cut == '\r' && *s == '\n')
+			s++;
+	}
+}
+
+static int ini_read(const char *path)
+{
+	static char buf[512];
+	unsigned short got;
+	int h;
+
+	h = dos_open(path, 0);
+	if (h < 0)
+		return -1;
+	got = 0;
+	if (dos_read(h, buf, 511, &got) != 0) {
+		dos_close(h);
+		return -1;
+	}
+	dos_close(h);
+	buf[got] = 0;
+	ini_parse(buf);
+	return 0;
+}
+
+static void ini_from_exe(char *dst)
+{
+	char exe[PATH_MAX];
+	const char *s;
+	const char *sep;
+	int n;
+
+	dst[0] = 0;
+	if (dos_exepath(exe, (int)sizeof(exe)) != 0)
+		return;
+	sep = 0;
+	s = exe;
+	while (*s) {
+		if (is_sjis_lead((unsigned char)*s) && s[1]) {
+			s += 2;
+			continue;
+		}
+		if (*s == '\\' || *s == '/')
+			sep = s;
+		s++;
+	}
+	if (!sep)
+		return;
+	n = (int)(sep - exe) + 1;
+	if (n + 6 >= PATH_MAX)
+		return;
+	memcpy(dst, exe, (unsigned)n);
+	dst[n] = 0;
+	strcat(dst, "NC.INI");
+}
+
+static void ini_load(void)
+{
+	char path[PATH_MAX];
+	int got;
+
+	strcpy(g_editor, "sedit");
+	ini_from_exe(path);
+	got = -1;
+	if (path[0])
+		got = ini_read(path);
+	if (got != 0)
+		ini_read("NC.INI");
 }
 
 static void wait_back(const char *err)
@@ -139,6 +259,36 @@ void do_run_cmd(void)
 	g_cmdlen = 0;
 	g_cmd[0] = 0;
 	draw_all();
+}
+
+static void do_edit(void)
+{
+	struct panel *p;
+	struct file_ent *e;
+	char args[CMD_MAX];
+	int n;
+	int m;
+
+	p = &g_pan[g_act];
+	e = panel_cur(p);
+	if (!e) {
+		ui_status("No file");
+		return;
+	}
+	if (e->attr & FA_DIR) {
+		ui_status("Cannot edit a directory");
+		return;
+	}
+	n = (int)strlen(g_editor);
+	m = (int)strlen(e->name);
+	if (n <= 0 || n + 1 + m >= CMD_MAX) {
+		ui_status("Editor command too long");
+		return;
+	}
+	strcpy(args, g_editor);
+	strcat(args, " ");
+	strcat(args, e->name);
+	run_prog("", args, 1);
 }
 
 static char c_path[PATH_MAX];
@@ -275,7 +425,7 @@ static void draw_hint(void)
 static void draw_fkeys(void)
 {
 	static const char *lab[10] = {
-		" 1Help  ", " 2Drive ", " 3View  ", " 4      ", " 5Copy  ",
+		" 1Help  ", " 2Drive ", " 3View  ", " 4Edit  ", " 5Copy  ",
 		" 6Move  ", " 7MkDir ", " 8Del   ", " 9      ", "10Quit  "
 	};
 	int i;
@@ -507,8 +657,10 @@ static void help_screen(void)
 		"*              invert marks",
 		"F2             drive of the active panel",
 		"F3             view a file",
+		"F4             edit, program is set in NC.INI",
 		"F5             copy to the other panel",
 		"F6             move, or rename if both panels match",
+		"GRPH/CTRL+F6   rename the file under the cursor",
 		"F7             make a directory",
 		"F8 / Del       delete",
 		"F10            quit",
@@ -720,8 +872,17 @@ static int handle(struct keyev *ev)
 		do_view();
 		return 0;
 	}
+	if (ev->scan == SCAN_F4) {
+		do_edit();
+		return 0;
+	}
 	if (ev->scan == SCAN_F5) {
 		do_copy();
+		return 0;
+	}
+	if (ev->scan == SCAN_F6 &&
+	    (ev->shift & (MOD_SHIFT | MOD_GRPH | MOD_CTRL))) {
+		do_rename();
 		return 0;
 	}
 	if (ev->scan == SCAN_F6) {
@@ -764,6 +925,7 @@ int main(void)
 	g_comspec[0] = 0;
 	dos_comspec(g_comspec, (int)sizeof(g_comspec));
 	dos_crit_on();
+	ini_load();
 	vid_init();
 	panel_init();
 	vid_clear(COL_WHITE);

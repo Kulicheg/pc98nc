@@ -694,6 +694,54 @@ static void move_tree(const char *src, const char *dst, int isdir)
 	}
 }
 
+void do_rename(void)
+{
+	struct panel *p;
+	struct panel *other;
+	struct file_ent *e;
+	char renamed[NAME_LEN];
+	char from[PATH_MAX];
+	char to[PATH_MAX];
+	int err;
+
+	p = &g_pan[g_act];
+	e = panel_cur(p);
+	if (!e || is_dot(e->name)) {
+		ui_status("Nothing to rename");
+		draw_all();
+		return;
+	}
+	strcpy(renamed, e->name);
+	if (!ui_input("Rename", "New name:", renamed, NAME_LEN - 1)) {
+		ui_status("Cancelled");
+		draw_all();
+		return;
+	}
+	if (namecmp(renamed, e->name) == 0) {
+		ui_status("Cancelled");
+		draw_all();
+		return;
+	}
+	if (path_join(from, p->path, e->name) != 0 ||
+	    path_join(to, p->path, renamed) != 0) {
+		ui_status("Path too long");
+		draw_all();
+		return;
+	}
+	err = dos_rename(from, to);
+	if (err) {
+		ui_status(dos_errmsg(err));
+	} else {
+		ui_status("Renamed");
+		strcpy(e->name, renamed);
+	}
+	other = &g_pan[1 - g_act];
+	if (path_same(p->path, other->path))
+		finish(p, other);
+	else
+		finish(p, 0);
+}
+
 void do_move(void)
 {
 	struct panel *src;

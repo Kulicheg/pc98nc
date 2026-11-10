@@ -30,7 +30,9 @@
  * Keyboard is INT 18h, not INT 16h.
  *   AH=00h wait, AX = scan in AH, character in AL. Removes the key.
  *   AH=01h peek, BH=0 if the buffer is empty. Does not remove.
- *   AH=02h shift: bit0 SHIFT, bit1 CAPS, bit2 KANA, bit3 GRPH, bit4 CTRL.
+ *   AH=02h live modifiers. AH=07h is the key plus modifiers held with it.
+ *   Bits: bit0 SHIFT, bit1 CAPS, bit2 KANA, bit3 GRPH, bit4 CTRL.
+ *   F1-F10 stay 62h-6Bh. Shift does not make another function-key code.
  * Scans (hex), not IBM scan codes:
  *   Esc 00, BS 0E, Tab 0F, Enter 1C
  *   Roll Up 36, Roll Down 37, Ins 38, Del 39
@@ -100,6 +102,9 @@
 #define SCAN_F4     0x65
 #define SCAN_F5     0x66
 #define SCAN_F6     0x67
+#define MOD_SHIFT   0x01
+#define MOD_GRPH    0x08
+#define MOD_CTRL    0x10
 #define SCAN_F7     0x68
 #define SCAN_F8     0x69
 #define SCAN_F9     0x6A
@@ -124,6 +129,7 @@
 struct keyev {
 	unsigned char scan;
 	unsigned char ascii;
+	unsigned char shift;
 };
 
 struct file_ent {
@@ -191,6 +197,7 @@ int dos_free(unsigned char drive1, unsigned long *bytes);
 int dos_drive_ok(unsigned char drive1);
 int dos_exec(const char *path, const char *args);
 int dos_comspec(char *dst, int max);
+int dos_exepath(char *dst, int max);
 void dos_crit_on(void);
 void dos_crit_off(void);
 extern unsigned char crit_hit;
@@ -231,6 +238,7 @@ int ui_esc(void);
 
 void do_copy(void);
 void do_move(void);
+void do_rename(void);
 void do_delete(void);
 void do_mkdir(void);
 void do_view(void);

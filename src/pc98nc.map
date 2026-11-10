@@ -1,119 +1,119 @@
 Archive member included to satisfy reference by file (symbol)
 
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-int86-do.o)
-                              C:\Users\egoro\AppData\Local\Temp\cchHvNGM.o (__libi86_int86_do)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-int86x-do.o)
-                              C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o (__libi86_int86x_do)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-intr-call-0030.o)
-                              C:\Users\egoro\AppData\Local\Temp\cchHvNGM.o (__libi86_intr_call_0030)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-intr-call-0041.o)
-                              C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o (__libi86_intr_call_0041)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(segread.o)
-                              C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o (segread)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-close.o)
-                              C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o (_dos_close)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-creat.o)
-                              C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o (_dos_creat)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findfirst.o)
-                              C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o (_dos_findfirst)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findnext.o)
-                              C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o (_dos_findnext)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-getdiskfree.o)
-                              C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o (_dos_getdiskfree)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-getftime.o)
-                              C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o (_dos_getftime)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-open.o)
-                              C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o (_dos_open)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-read.o)
-                              C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o (_dos_read)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-setftime.o)
-                              C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o (_dos_setftime)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-spawn.o)
-                              C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o (_dos_spawn)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-write.o)
-                              C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o (_dos_write)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-einval.o)
-                              c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-getdiskfree.o) (__libi86_ret_einval)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-really-set-errno.o)
-                              c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findnext.o) (__libi86_ret_really_set_errno)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-set-errno.o)
-                              c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-close.o) (__libi86_ret_set_errno)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-environ.o)
-                              c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o (environ)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-errno.o)
-                              c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-creat.o) (__errno)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-exit.o)
-                              c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o (exit)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-impure.o)
-                              c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-exit.o) (_global_impure_ptr)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memcmp.o)
-                              C:\Users\egoro\AppData\Local\Temp\ccJmQCPz.o (memcmp)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memcpy.o)
-                              C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o (memcpy)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memmove.o)
-                              C:\Users\egoro\AppData\Local\Temp\ccj5gMvB.o (memmove)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memset.o)
-                              C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o (memset)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcat.o)
-                              C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o (strcat)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strchr.o)
-                              C:\Users\egoro\AppData\Local\Temp\cc7F5Vvy.o (strchr)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcmp.o)
-                              C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o (strcmp)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcpy.o)
-                              C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o (strcpy)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strlen.o)
-                              C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o (strlen)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strncat.o)
-                              C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o (strncat)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strncpy.o)
-                              C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o (strncpy)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-__call_atexit.o)
-                              c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-exit.o) (__call_exitprocs)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(udivsi3.o)
-                              C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o (__udivsi3)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(umodsi3.o)
-                              C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o (__umodsi3)
-c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(ia16-ldivmodu.o)
-                              c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(udivsi3.o) (__ia16_ldivmodu)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-int86-do.o)
+                              C:\Users\egoro\AppData\Local\Temp\cc0JkXSC.o (__libi86_int86_do)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-int86x-do.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o (__libi86_int86x_do)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-intr-call-0030.o)
+                              C:\Users\egoro\AppData\Local\Temp\cc0JkXSC.o (__libi86_intr_call_0030)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-intr-call-0041.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o (__libi86_intr_call_0041)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(segread.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o (segread)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-close.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o (_dos_close)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-creat.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o (_dos_creat)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findfirst.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o (_dos_findfirst)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findnext.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o (_dos_findnext)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-getdiskfree.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o (_dos_getdiskfree)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-getftime.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o (_dos_getftime)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-open.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o (_dos_open)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-read.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o (_dos_read)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-setftime.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o (_dos_setftime)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-spawn.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o (_dos_spawn)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-write.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o (_dos_write)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-einval.o)
+                              c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-getdiskfree.o) (__libi86_ret_einval)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-really-set-errno.o)
+                              c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findnext.o) (__libi86_ret_really_set_errno)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-set-errno.o)
+                              c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-close.o) (__libi86_ret_set_errno)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-environ.o)
+                              c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o (environ)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-errno.o)
+                              c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-creat.o) (__errno)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-exit.o)
+                              c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o (exit)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-impure.o)
+                              c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memcmp.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccG0sbKi.o (memcmp)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memcpy.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o (memcpy)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memmove.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccc53nFv.o (memmove)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memset.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o (memset)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcat.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o (strcat)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strchr.o)
+                              C:\Users\egoro\AppData\Local\Temp\cciBVjQP.o (strchr)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcmp.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o (strcmp)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcpy.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o (strcpy)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strlen.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o (strlen)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strncat.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o (strncat)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strncpy.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o (strncpy)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-__call_atexit.o)
+                              c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-exit.o) (__call_exitprocs)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(udivsi3.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o (__udivsi3)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(umodsi3.o)
+                              C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o (__umodsi3)
+c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(ia16-ldivmodu.o)
+                              c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(udivsi3.o) (__ia16_ldivmodu)
 
 Allocating common symbols
 Common symbol       size              file
 
-g_cmdlen            0x2               C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o
-g_pan               0x60b8            C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o
-g_act               0x2               C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o
-g_cmd               0x42              C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o
-g_msg               0x50              C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o
+g_cmdlen            0x2               C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o
+g_pan               0x60b8            C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o
+g_act               0x2               C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o
+g_cmd               0x42              C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o
+g_msg               0x50              C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o
 
 Discarded input sections
 
- .comment       0x0000000000000000       0x12 C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o
- .comment       0x0000000000000000       0x12 C:\Users\egoro\AppData\Local\Temp\cchHvNGM.o
- .comment       0x0000000000000000       0x12 C:\Users\egoro\AppData\Local\Temp\ccp0sN4f.o
- .comment       0x0000000000000000       0x12 C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o
- .comment       0x0000000000000000       0x12 C:\Users\egoro\AppData\Local\Temp\ccJmQCPz.o
- .comment       0x0000000000000000       0x12 C:\Users\egoro\AppData\Local\Temp\cc7F5Vvy.o
- .comment       0x0000000000000000       0x12 C:\Users\egoro\AppData\Local\Temp\ccj5gMvB.o
- .comment       0x0000000000000000       0x12 C:\Users\egoro\AppData\Local\Temp\cc5scnTH.o
- .comment       0x0000000000000000       0x12 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-creat.o)
- .comment       0x0000000000000000       0x12 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findfirst.o)
- .comment       0x0000000000000000       0x12 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findnext.o)
- .comment       0x0000000000000000       0x12 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-getdiskfree.o)
- .comment       0x0000000000000000       0x12 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-open.o)
- .comment       0x0000000000000000       0x12 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-read.o)
- .comment       0x0000000000000000       0x12 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-write.o)
- .comment       0x0000000000000000       0x12 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-einval.o)
- .comment       0x0000000000000000       0x12 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-really-set-errno.o)
- .comment       0x0000000000000000       0x12 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtbegin.o
- .comment       0x0000000000000000       0x12 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtend.o
- .comment       0x0000000000000000       0x12 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-environ.o)
- .comment       0x0000000000000000       0x12 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-errno.o)
- .comment       0x0000000000000000       0x12 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-exit.o)
- .comment       0x0000000000000000       0x12 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-impure.o)
- .comment       0x0000000000000000       0x12 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcat.o)
- .comment       0x0000000000000000       0x12 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strncat.o)
- .comment       0x0000000000000000       0x12 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000000       0x12 C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o
+ .comment       0x0000000000000000       0x12 C:\Users\egoro\AppData\Local\Temp\cc0JkXSC.o
+ .comment       0x0000000000000000       0x12 C:\Users\egoro\AppData\Local\Temp\ccu82NaJ.o
+ .comment       0x0000000000000000       0x12 C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o
+ .comment       0x0000000000000000       0x12 C:\Users\egoro\AppData\Local\Temp\ccG0sbKi.o
+ .comment       0x0000000000000000       0x12 C:\Users\egoro\AppData\Local\Temp\cciBVjQP.o
+ .comment       0x0000000000000000       0x12 C:\Users\egoro\AppData\Local\Temp\ccc53nFv.o
+ .comment       0x0000000000000000       0x12 C:\Users\egoro\AppData\Local\Temp\ccc0QwPe.o
+ .comment       0x0000000000000000       0x12 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-creat.o)
+ .comment       0x0000000000000000       0x12 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findfirst.o)
+ .comment       0x0000000000000000       0x12 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findnext.o)
+ .comment       0x0000000000000000       0x12 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-getdiskfree.o)
+ .comment       0x0000000000000000       0x12 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-open.o)
+ .comment       0x0000000000000000       0x12 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-read.o)
+ .comment       0x0000000000000000       0x12 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-write.o)
+ .comment       0x0000000000000000       0x12 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-einval.o)
+ .comment       0x0000000000000000       0x12 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-really-set-errno.o)
+ .comment       0x0000000000000000       0x12 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtbegin.o
+ .comment       0x0000000000000000       0x12 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtend.o
+ .comment       0x0000000000000000       0x12 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-environ.o)
+ .comment       0x0000000000000000       0x12 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-errno.o)
+ .comment       0x0000000000000000       0x12 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-exit.o)
+ .comment       0x0000000000000000       0x12 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-impure.o)
+ .comment       0x0000000000000000       0x12 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcat.o)
+ .comment       0x0000000000000000       0x12 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strncat.o)
+ .comment       0x0000000000000000       0x12 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-__call_atexit.o)
 
 Memory Configuration
 
@@ -321,36 +321,36 @@ dsegvma          0x0000000000000020 0x0000000000010000 xw
 
 Linker script and memory map
 
-LOAD C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o
-LOAD C:\Users\egoro\AppData\Local\Temp\cchHvNGM.o
-LOAD C:\Users\egoro\AppData\Local\Temp\ccp0sN4f.o
-LOAD C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o
-LOAD C:\Users\egoro\AppData\Local\Temp\ccJmQCPz.o
-LOAD C:\Users\egoro\AppData\Local\Temp\cc7F5Vvy.o
-LOAD C:\Users\egoro\AppData\Local\Temp\ccj5gMvB.o
-LOAD C:\Users\egoro\AppData\Local\Temp\cc5scnTH.o
-LOAD C:\Users\egoro\AppData\Local\Temp\ccumGqSJ.o
-LOAD c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a
-LOAD c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libastdio.a
-LOAD c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/gprtf-fw.a
-LOAD c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/gscnf-fw.a
-LOAD c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/tprtf-fw.a
-LOAD c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/tscnf-fw.a
-LOAD c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/iprtf-fw.a
-LOAD c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/iscnf-fw.a
-LOAD c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libfstdio.a
-LOAD c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/tprtf-fw.a
-LOAD c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/tscnf-fw.a
-LOAD c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/gprtf-fw.a
-LOAD c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/gscnf-fw.a
-LOAD c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtbegin.o
-LOAD c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtend.o
-LOAD c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
+LOAD C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o
+LOAD C:\Users\egoro\AppData\Local\Temp\cc0JkXSC.o
+LOAD C:\Users\egoro\AppData\Local\Temp\ccu82NaJ.o
+LOAD C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o
+LOAD C:\Users\egoro\AppData\Local\Temp\ccG0sbKi.o
+LOAD C:\Users\egoro\AppData\Local\Temp\cciBVjQP.o
+LOAD C:\Users\egoro\AppData\Local\Temp\ccc53nFv.o
+LOAD C:\Users\egoro\AppData\Local\Temp\ccc0QwPe.o
+LOAD C:\Users\egoro\AppData\Local\Temp\cccvWfE1.o
+LOAD c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a
+LOAD c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libastdio.a
+LOAD c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/gprtf-fw.a
+LOAD c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/gscnf-fw.a
+LOAD c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/tprtf-fw.a
+LOAD c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/tscnf-fw.a
+LOAD c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/iprtf-fw.a
+LOAD c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/iscnf-fw.a
+LOAD c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libfstdio.a
+LOAD c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/tprtf-fw.a
+LOAD c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/tscnf-fw.a
+LOAD c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/gprtf-fw.a
+LOAD c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/gscnf-fw.a
+LOAD c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtbegin.o
+LOAD c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtend.o
+LOAD c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
 START GROUP
-LOAD c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a
-LOAD c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a
-LOAD c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libdos-s.a
-LOAD c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libm.a
+LOAD c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a
+LOAD c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a
+LOAD c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libdos-s.a
+LOAD c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libm.a
 END GROUP
 
 .head
@@ -361,12 +361,12 @@ END GROUP
                 0x0000000000000000                __msdos_mz_hdr_start = .
                 0x0000000000000000        0x2 SHORT 0x5a4d
                 0x0000000000000002        0x2 SHORT 0x10 ((LOADADDR (.data) + SIZEOF (.data)) % 0x200)
-                0x0000000000000004        0x2 SHORT 0x2f (((LOADADDR (.data) + SIZEOF (.data)) + 0x1ff) / 0x200)
+                0x0000000000000004        0x2 SHORT 0x33 (((LOADADDR (.data) + SIZEOF (.data)) + 0x1ff) / 0x200)
                 0x0000000000000006        0x2 SHORT 0x0 __msdos_mz_rels
                 0x0000000000000008        0x2 SHORT 0x2 __msdos_mz_hdr_paras
-                0x000000000000000a        0x2 SHORT 0xf84 (((0x10000 - SIZEOF (.data)) - ADDR (.data)) / 0x10)
-                0x000000000000000c        0x2 SHORT 0xf84 DEFINED (__msdos_handle_v1)?0xffff:(((0x10000 - SIZEOF (.data)) - ADDR (.data)) / 0x10)
-                0x000000000000000e        0x2 SHORT 0x10543 ((((LOADADDR (.data) / 0x10) - __msdos_mz_hdr_paras) - (ADDR (.data) / 0x10)) + 0x10000)
+                0x000000000000000a        0x2 SHORT 0xf78 (((0x10000 - SIZEOF (.data)) - ADDR (.data)) / 0x10)
+                0x000000000000000c        0x2 SHORT 0xf78 DEFINED (__msdos_handle_v1)?0xffff:(((0x10000 - SIZEOF (.data)) - ADDR (.data)) / 0x10)
+                0x000000000000000e        0x2 SHORT 0x105b7 ((((LOADADDR (.data) / 0x10) - __msdos_mz_hdr_paras) - (ADDR (.data) / 0x10)) + 0x10000)
                 0x0000000000000010        0x2 SHORT 0x0
                 0x0000000000000012        0x2 SHORT 0x0
                 0x0000000000000014        0x2 SHORT 0x20 _start
@@ -385,1031 +385,1033 @@ END GROUP
                 0x0000000000000001                ASSERT ((((__msdos_mz_rel_end - __msdos_mz_rel_start) % 0x4) == 0x0), Error: MZ relocations are not 4-byte aligned)
                 0x0000000000000001                ASSERT ((__msdos_mz_rels <= 0xffff), Error: too many MZ relocations)
 
-.text           0x0000000000000020     0x5450
+.text           0x0000000000000020     0x5b90
                 0x0000000000000020                __stext = .
  *(.startupA)
- .startupA      0x0000000000000020        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
+ .startupA      0x0000000000000020        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
                 0x0000000000000020                _start
  *(.startupB)
  *(.startupC)
- .startupC      0x0000000000000020        0x8 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
+ .startupC      0x0000000000000020        0x8 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
  *(.msdos_init)
  *(.msdos_init.*)
  *(.msdos_initA)
  *(.msdos_initA.*)
  *(.startupD)
- .startupD      0x0000000000000028        0xf c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
+ .startupD      0x0000000000000028        0xf c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
  *(.msdos_initB)
  *(.msdos_initB.*)
  *(.startupE)
- .startupE      0x0000000000000037       0xb3 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
+ .startupE      0x0000000000000037       0xb3 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
  *(.init)
- .init          0x00000000000000ea        0x3 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtbegin.o
- .init          0x00000000000000ed        0x3 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtend.o
+ .init          0x00000000000000ea        0x3 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtbegin.o
+ .init          0x00000000000000ed        0x3 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtend.o
  *(.startupF)
- .startupF      0x00000000000000f0       0x75 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
+ .startupF      0x00000000000000f0       0x75 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
  *(.exitA)
- .exitA         0x0000000000000165        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
+ .exitA         0x0000000000000165        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
                 0x0000000000000165                _exit
  *(.fini)
- .fini          0x0000000000000165        0x3 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtbegin.o
+ .fini          0x0000000000000165        0x3 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtbegin.o
  *(.exitB)
- .exitB         0x0000000000000168        0x6 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
+ .exitB         0x0000000000000168        0x6 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
                 0x000000000000016a                __msdos_crt_exit
  *(.text)
- .text          0x000000000000016e     0x12de C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o
-                0x00000000000005ab                draw_damage
-                0x00000000000005b2                draw_all
-                0x0000000000000832                ui_status
-                0x00000000000009c4                do_run_cmd
-                0x00000000000009ed                do_run_cursor
-                0x0000000000000acb                ui_esc
-                0x0000000000000afb                ui_ask
-                0x0000000000000bc7                ui_confirm
-                0x0000000000000c7e                ui_progress
-                0x0000000000000d52                ui_input
-                0x0000000000000ea2                main
- .text          0x000000000000144c      0x51d C:\Users\egoro\AppData\Local\Temp\cchHvNGM.o
-                0x000000000000147f                vid_cell
-                0x00000000000014e9                vid_fill
-                0x000000000000154d                vid_clear
-                0x0000000000001579                vid_forget
-                0x000000000000159a                vid_fw
-                0x00000000000015e6                vid_box
-                0x0000000000001738                vid_puts
-                0x0000000000001856                vid_putpad
-                0x00000000000018fa                vid_init
-                0x0000000000001923                vid_handoff
-                0x0000000000001949                vid_done
- .text          0x0000000000001969       0x7d C:\Users\egoro\AppData\Local\Temp\ccp0sN4f.o
-                0x0000000000001969                kbd_read
-                0x00000000000019a0                kbd_poll
- .text          0x00000000000019e6      0x5cb C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o
-                0x0000000000001a23                dos_errmsg
-                0x0000000000001aa4                dos_findfirst
-                0x0000000000001abb                dos_findnext
-                0x0000000000001ac6                dos_dta
-                0x0000000000001aca                dos_dta_main
-                0x0000000000001acb                dos_setdta
-                0x0000000000001acf                dos_exists
-                0x0000000000001b01                dos_getcwd
-                0x0000000000001b47                dos_chdir
-                0x0000000000001b5a                dos_getdrive
-                0x0000000000001b88                dos_mkdir
-                0x0000000000001b9b                dos_rmdir
-                0x0000000000001bae                dos_unlink
-                0x0000000000001bc1                dos_rename
-                0x0000000000001c12                dos_create
-                0x0000000000001c3c                dos_open
-                0x0000000000001c69                dos_close
-                0x0000000000001c79                dos_read
-                0x0000000000001ca4                dos_write
-                0x0000000000001ccf                dos_seek
-                0x0000000000001d1a                dos_gettime
-                0x0000000000001d56                dos_settime
-                0x0000000000001d6c                dos_free
-                0x0000000000001db4                dos_drive_ok
-                0x0000000000001df2                dos_exec
-                0x0000000000001e99                dos_comspec
- .text          0x0000000000001fb1      0xd7d C:\Users\egoro\AppData\Local\Temp\ccJmQCPz.o
-                0x00000000000020ff                panel_damage
-                0x000000000000211e                panel_reload
-                0x000000000000241c                panel_init
-                0x00000000000024c2                panel_move
-                0x000000000000250d                panel_parent
-                0x0000000000002606                panel_invert
-                0x0000000000002654                panel_setdrive
-                0x00000000000026b9                panel_cur
-                0x00000000000026ea                panel_enter_dir
-                0x0000000000002763                panel_mark
-                0x00000000000027ac                panel_draw
- .text          0x0000000000002d2e     0x1715 C:\Users\egoro\AppData\Local\Temp\cc7F5Vvy.o
-                0x00000000000033e0                do_copy
-                0x0000000000003807                do_delete
-                0x0000000000003cd7                do_move
-                0x000000000000431a                do_mkdir
- .text          0x0000000000004443      0x44b C:\Users\egoro\AppData\Local\Temp\ccj5gMvB.o
-                0x0000000000004443                do_view
- .text          0x000000000000488e      0x47d C:\Users\egoro\AppData\Local\Temp\cc5scnTH.o
-                0x000000000000488e                is_sjis_lead
-                0x00000000000048ad                is_sjis_trail
-                0x00000000000048cc                namecmp
-                0x0000000000004999                path_is_root
-                0x00000000000049bd                path_parent
-                0x0000000000004a17                path_join
-                0x0000000000004aaa                path_same
-                0x0000000000004ac4                path_inside
-                0x0000000000004b6a                fmt_ulong
-                0x0000000000004c1a                fmt_date
-                0x0000000000004c91                is_exec
- .text          0x0000000000004d0b       0x6a C:\Users\egoro\AppData\Local\Temp\ccumGqSJ.o
-                0x0000000000004d0d                crit_fail
-                0x0000000000004d2d                dos_crit_on
-                0x0000000000004d56                dos_crit_off
- .text          0x0000000000004d75       0x5b c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-int86-do.o)
-                0x0000000000004d75                __libi86_int86_do
- .text          0x0000000000004dd0       0x72 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-int86x-do.o)
-                0x0000000000004dd0                __libi86_int86x_do
- .text          0x0000000000004e42        0x3 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-intr-call-0030.o)
-                0x0000000000004e42                __libi86_intr_call_0030
- .text          0x0000000000004e45        0x3 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-intr-call-0041.o)
-                0x0000000000004e45                __libi86_intr_call_0041
- .text          0x0000000000004e48       0x11 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(segread.o)
-                0x0000000000004e48                segread
- .text          0x0000000000004e59        0xc c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-close.o)
-                0x0000000000004e59                _dos_close
- .text          0x0000000000004e65       0x2e c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-creat.o)
-                0x0000000000004e65                _dos_creat
- .text          0x0000000000004e93       0x31 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findfirst.o)
-                0x0000000000004e93                _dos_findfirst
- .text          0x0000000000004ec4       0x19 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findnext.o)
-                0x0000000000004ec4                _dos_findnext
- .text          0x0000000000004edd       0x30 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-getdiskfree.o)
-                0x0000000000004edd                _dos_getdiskfree
- .text          0x0000000000004f0d       0x1d c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-getftime.o)
-                0x0000000000004f0d                _dos_getftime
- .text          0x0000000000004f2a       0x55 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-open.o)
-                0x0000000000004f2a                _dos_open
- .text          0x0000000000004f7f       0x2e c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-read.o)
-                0x0000000000004f7f                _dos_read
- .text          0x0000000000004fad       0x13 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-setftime.o)
-                0x0000000000004fad                _dos_setftime
- .text          0x0000000000004fc0       0x3c c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-spawn.o)
-                0x0000000000004fc0                _dos_spawn
- .text          0x0000000000004ffc       0x2e c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-write.o)
-                0x0000000000004ffc                _dos_write
- .text          0x000000000000502a        0xf c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-einval.o)
-                0x000000000000502a                __libi86_ret_einval
- .text          0x0000000000005039        0xe c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-really-set-errno.o)
-                0x0000000000005039                __libi86_ret_really_set_errno
- .text          0x0000000000005047        0x8 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-set-errno.o)
-                0x0000000000005047                __libi86_ret_set_errno
- .text          0x000000000000504f       0x38 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtbegin.o
- .text          0x0000000000005087       0x1b c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtend.o
- .text          0x00000000000050a2        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
- .text          0x00000000000050a2        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-environ.o)
- .text          0x00000000000050a2        0x4 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-errno.o)
-                0x00000000000050a2                __errno
- .text          0x00000000000050a6       0x25 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-exit.o)
-                0x00000000000050a6                exit
- .text          0x00000000000050cb        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-impure.o)
- .text          0x00000000000050cb       0x5a c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memcmp.o)
-                0x00000000000050cb                memcmp
- .text          0x0000000000005125       0x20 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memcpy.o)
-                0x0000000000005125                memcpy
- .text          0x0000000000005145       0x54 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memmove.o)
-                0x0000000000005145                memmove
- .text          0x0000000000005199       0x22 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memset.o)
-                0x0000000000005199                memset
- .text          0x00000000000051bb       0x24 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcat.o)
-                0x00000000000051bb                strcat
- .text          0x00000000000051df       0x1b c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strchr.o)
-                0x00000000000051df                strchr
- .text          0x00000000000051fa       0x1e c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcmp.o)
-                0x00000000000051fa                strcmp
- .text          0x0000000000005218       0x1d c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcpy.o)
-                0x0000000000005218                strcpy
- .text          0x0000000000005235       0x1c c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strlen.o)
-                0x0000000000005235                strlen
- .text          0x0000000000005251       0x36 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strncat.o)
-                0x0000000000005251                strncat
- .text          0x0000000000005287       0x2c c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strncpy.o)
-                0x0000000000005287                strncpy
- .text          0x00000000000052b3      0x133 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-__call_atexit.o)
-                0x00000000000052b3                __call_exitprocs
- .text          0x00000000000053e6       0x15 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(udivsi3.o)
-                0x00000000000053e6                __udivsi3
- .text          0x00000000000053fb       0x1a c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(umodsi3.o)
-                0x00000000000053fb                __umodsi3
- .text          0x0000000000005415       0x4f c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(ia16-ldivmodu.o)
-                0x0000000000005415                __ia16_ldivmodu
+ .text          0x000000000000016e     0x1784 C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o
+                0x00000000000008af                draw_damage
+                0x00000000000008b6                draw_all
+                0x0000000000000b36                ui_status
+                0x0000000000000cc8                do_run_cmd
+                0x0000000000000cf1                do_run_cursor
+                0x0000000000000dcf                ui_esc
+                0x0000000000000dff                ui_ask
+                0x0000000000000ecb                ui_confirm
+                0x0000000000000f82                ui_progress
+                0x0000000000001056                ui_input
+                0x00000000000011a6                main
+ .text          0x00000000000018f2      0x51d C:\Users\egoro\AppData\Local\Temp\cc0JkXSC.o
+                0x0000000000001925                vid_cell
+                0x000000000000198f                vid_fill
+                0x00000000000019f3                vid_clear
+                0x0000000000001a1f                vid_forget
+                0x0000000000001a40                vid_fw
+                0x0000000000001a8c                vid_box
+                0x0000000000001bde                vid_puts
+                0x0000000000001cfc                vid_putpad
+                0x0000000000001da0                vid_init
+                0x0000000000001dc9                vid_handoff
+                0x0000000000001def                vid_done
+ .text          0x0000000000001e0f       0xbe C:\Users\egoro\AppData\Local\Temp\ccu82NaJ.o
+                0x0000000000001e3d                kbd_read
+                0x0000000000001e7a                kbd_poll
+ .text          0x0000000000001ecd      0x6c0 C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o
+                0x0000000000001f0a                dos_errmsg
+                0x0000000000001f8b                dos_findfirst
+                0x0000000000001fa2                dos_findnext
+                0x0000000000001fad                dos_dta
+                0x0000000000001fb1                dos_dta_main
+                0x0000000000001fb2                dos_setdta
+                0x0000000000001fb6                dos_exists
+                0x0000000000001fe8                dos_getcwd
+                0x000000000000202e                dos_chdir
+                0x0000000000002041                dos_getdrive
+                0x000000000000206f                dos_mkdir
+                0x0000000000002082                dos_rmdir
+                0x0000000000002095                dos_unlink
+                0x00000000000020a8                dos_rename
+                0x00000000000020f9                dos_create
+                0x0000000000002123                dos_open
+                0x0000000000002150                dos_close
+                0x0000000000002160                dos_read
+                0x000000000000218b                dos_write
+                0x00000000000021b6                dos_seek
+                0x0000000000002201                dos_gettime
+                0x000000000000223d                dos_settime
+                0x0000000000002253                dos_free
+                0x000000000000229b                dos_drive_ok
+                0x00000000000022d9                dos_exec
+                0x0000000000002380                dos_comspec
+                0x0000000000002498                dos_exepath
+ .text          0x000000000000258d      0xd7d C:\Users\egoro\AppData\Local\Temp\ccG0sbKi.o
+                0x00000000000026db                panel_damage
+                0x00000000000026fa                panel_reload
+                0x00000000000029f8                panel_init
+                0x0000000000002a9e                panel_move
+                0x0000000000002ae9                panel_parent
+                0x0000000000002be2                panel_invert
+                0x0000000000002c30                panel_setdrive
+                0x0000000000002c95                panel_cur
+                0x0000000000002cc6                panel_enter_dir
+                0x0000000000002d3f                panel_mark
+                0x0000000000002d88                panel_draw
+ .text          0x000000000000330a     0x1880 C:\Users\egoro\AppData\Local\Temp\cciBVjQP.o
+                0x00000000000039bc                do_copy
+                0x0000000000003de3                do_delete
+                0x00000000000042b3                do_rename
+                0x000000000000441e                do_move
+                0x0000000000004a61                do_mkdir
+ .text          0x0000000000004b8a      0x44b C:\Users\egoro\AppData\Local\Temp\ccc53nFv.o
+                0x0000000000004b8a                do_view
+ .text          0x0000000000004fd5      0x47d C:\Users\egoro\AppData\Local\Temp\ccc0QwPe.o
+                0x0000000000004fd5                is_sjis_lead
+                0x0000000000004ff4                is_sjis_trail
+                0x0000000000005013                namecmp
+                0x00000000000050e0                path_is_root
+                0x0000000000005104                path_parent
+                0x000000000000515e                path_join
+                0x00000000000051f1                path_same
+                0x000000000000520b                path_inside
+                0x00000000000052b1                fmt_ulong
+                0x0000000000005361                fmt_date
+                0x00000000000053d8                is_exec
+ .text          0x0000000000005452       0x6a C:\Users\egoro\AppData\Local\Temp\cccvWfE1.o
+                0x0000000000005454                crit_fail
+                0x0000000000005474                dos_crit_on
+                0x000000000000549d                dos_crit_off
+ .text          0x00000000000054bc       0x5b c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-int86-do.o)
+                0x00000000000054bc                __libi86_int86_do
+ .text          0x0000000000005517       0x72 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-int86x-do.o)
+                0x0000000000005517                __libi86_int86x_do
+ .text          0x0000000000005589        0x3 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-intr-call-0030.o)
+                0x0000000000005589                __libi86_intr_call_0030
+ .text          0x000000000000558c        0x3 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-intr-call-0041.o)
+                0x000000000000558c                __libi86_intr_call_0041
+ .text          0x000000000000558f       0x11 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(segread.o)
+                0x000000000000558f                segread
+ .text          0x00000000000055a0        0xc c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-close.o)
+                0x00000000000055a0                _dos_close
+ .text          0x00000000000055ac       0x2e c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-creat.o)
+                0x00000000000055ac                _dos_creat
+ .text          0x00000000000055da       0x31 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findfirst.o)
+                0x00000000000055da                _dos_findfirst
+ .text          0x000000000000560b       0x19 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findnext.o)
+                0x000000000000560b                _dos_findnext
+ .text          0x0000000000005624       0x30 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-getdiskfree.o)
+                0x0000000000005624                _dos_getdiskfree
+ .text          0x0000000000005654       0x1d c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-getftime.o)
+                0x0000000000005654                _dos_getftime
+ .text          0x0000000000005671       0x55 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-open.o)
+                0x0000000000005671                _dos_open
+ .text          0x00000000000056c6       0x2e c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-read.o)
+                0x00000000000056c6                _dos_read
+ .text          0x00000000000056f4       0x13 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-setftime.o)
+                0x00000000000056f4                _dos_setftime
+ .text          0x0000000000005707       0x3c c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-spawn.o)
+                0x0000000000005707                _dos_spawn
+ .text          0x0000000000005743       0x2e c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-write.o)
+                0x0000000000005743                _dos_write
+ .text          0x0000000000005771        0xf c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-einval.o)
+                0x0000000000005771                __libi86_ret_einval
+ .text          0x0000000000005780        0xe c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-really-set-errno.o)
+                0x0000000000005780                __libi86_ret_really_set_errno
+ .text          0x000000000000578e        0x8 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-set-errno.o)
+                0x000000000000578e                __libi86_ret_set_errno
+ .text          0x0000000000005796       0x38 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtbegin.o
+ .text          0x00000000000057ce       0x1b c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtend.o
+ .text          0x00000000000057e9        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
+ .text          0x00000000000057e9        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-environ.o)
+ .text          0x00000000000057e9        0x4 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-errno.o)
+                0x00000000000057e9                __errno
+ .text          0x00000000000057ed       0x25 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-exit.o)
+                0x00000000000057ed                exit
+ .text          0x0000000000005812        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-impure.o)
+ .text          0x0000000000005812       0x5a c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memcmp.o)
+                0x0000000000005812                memcmp
+ .text          0x000000000000586c       0x20 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memcpy.o)
+                0x000000000000586c                memcpy
+ .text          0x000000000000588c       0x54 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memmove.o)
+                0x000000000000588c                memmove
+ .text          0x00000000000058e0       0x22 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memset.o)
+                0x00000000000058e0                memset
+ .text          0x0000000000005902       0x24 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcat.o)
+                0x0000000000005902                strcat
+ .text          0x0000000000005926       0x1b c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strchr.o)
+                0x0000000000005926                strchr
+ .text          0x0000000000005941       0x1e c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcmp.o)
+                0x0000000000005941                strcmp
+ .text          0x000000000000595f       0x1d c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcpy.o)
+                0x000000000000595f                strcpy
+ .text          0x000000000000597c       0x1c c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strlen.o)
+                0x000000000000597c                strlen
+ .text          0x0000000000005998       0x36 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strncat.o)
+                0x0000000000005998                strncat
+ .text          0x00000000000059ce       0x2c c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strncpy.o)
+                0x00000000000059ce                strncpy
+ .text          0x00000000000059fa      0x133 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-__call_atexit.o)
+                0x00000000000059fa                __call_exitprocs
+ .text          0x0000000000005b2d       0x15 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(udivsi3.o)
+                0x0000000000005b2d                __udivsi3
+ .text          0x0000000000005b42       0x1a c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(umodsi3.o)
+                0x0000000000005b42                __umodsi3
+ .text          0x0000000000005b5c       0x4f c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(ia16-ldivmodu.o)
+                0x0000000000005b5c                __ia16_ldivmodu
  *(.text.*)
-                0x0000000000005464                __etext = .
-                0x0000000000005470                . = ALIGN (0x10)
- *fill*         0x0000000000005464        0xc 
-                0x0000000000005470                __etext_padded = .
+                0x0000000000005bab                __etext = .
+                0x0000000000005bb0                . = ALIGN (0x10)
+ *fill*         0x0000000000005bab        0x5 
+                0x0000000000005bb0                __etext_padded = .
                 0x0000000000000001                ASSERT ((. <= 0x10000), Error: too large for a small or medium model .exe file.)
-                0x0000000000005444                __ltext = (__etext - __stext)
-                0x0000000000005450                __ltext_padded = (__etext_padded - __stext)
+                0x0000000000005b8b                __ltext = (__etext - __stext)
+                0x0000000000005b90                __ltext_padded = (__etext_padded - __stext)
 
-.fartext.00$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.00$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*00 .fartext.*00$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.01$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.01$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*01 .fartext.*01$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.02$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.02$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*02 .fartext.*02$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.03$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.03$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*03 .fartext.*03$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.04$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.04$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*04 .fartext.*04$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.05$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.05$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*05 .fartext.*05$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.06$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.06$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*06 .fartext.*06$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.07$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.07$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*07 .fartext.*07$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.10$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.10$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*10 .fartext.*10$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.11$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.11$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*11 .fartext.*11$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.12$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.12$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*12 .fartext.*12$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.13$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.13$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*13 .fartext.*13$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.14$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.14$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*14 .fartext.*14$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.15$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.15$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*15 .fartext.*15$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.16$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.16$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*16 .fartext.*16$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.17$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.17$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*17 .fartext.*17$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.20$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.20$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*20 .fartext.*20$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.21$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.21$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*21 .fartext.*21$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.22$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.22$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*22 .fartext.*22$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.23$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.23$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*23 .fartext.*23$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.24$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.24$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*24 .fartext.*24$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.25$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.25$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*25 .fartext.*25$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.26$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.26$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*26 .fartext.*26$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.27$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.27$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*27 .fartext.*27$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.30$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.30$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*30 .fartext.*30$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.31$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.31$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*31 .fartext.*31$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.32$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.32$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*32 .fartext.*32$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.33$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.33$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*33 .fartext.*33$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.34$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.34$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*34 .fartext.*34$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.35$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.35$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*35 .fartext.*35$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.36$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.36$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*36 .fartext.*36$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.37$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.37$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*37 .fartext.*37$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.40$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.40$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*40 .fartext.*40$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.41$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.41$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*41 .fartext.*41$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.42$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.42$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*42 .fartext.*42$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.43$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.43$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*43 .fartext.*43$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.44$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.44$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*44 .fartext.*44$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.45$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.45$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*45 .fartext.*45$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.46$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.46$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*46 .fartext.*46$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.47$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.47$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*47 .fartext.*47$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.50$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.50$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*50 .fartext.*50$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.51$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.51$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*51 .fartext.*51$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.52$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.52$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*52 .fartext.*52$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.53$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.53$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*53 .fartext.*53$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.54$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.54$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*54 .fartext.*54$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.55$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.55$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*55 .fartext.*55$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.56$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.56$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*56 .fartext.*56$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.57$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.57$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*57 .fartext.*57$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.60$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.60$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*60 .fartext.*60$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.61$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.61$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*61 .fartext.*61$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.62$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.62$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*62 .fartext.*62$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.63$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.63$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*63 .fartext.*63$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.64$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.64$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*64 .fartext.*64$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.65$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.65$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*65 .fartext.*65$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.66$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.66$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*66 .fartext.*66$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.67$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.67$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*67 .fartext.*67$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.70$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.70$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*70 .fartext.*70$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.71$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.71$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*71 .fartext.*71$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.72$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.72$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*72 .fartext.*72$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.73$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.73$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*73 .fartext.*73$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.74$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.74$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*74 .fartext.*74$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.75$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.75$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*75 .fartext.*75$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.76$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.76$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*76 .fartext.*76$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.77$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.77$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext.*77 .fartext.*77$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fartext.XX$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fartext.XX$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fartext .fartext$ .fartext.*)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.00$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.00$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*00 .farrodata.*00$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.01$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.01$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*01 .farrodata.*01$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.02$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.02$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*02 .farrodata.*02$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.03$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.03$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*03 .farrodata.*03$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.04$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.04$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*04 .farrodata.*04$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.05$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.05$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*05 .farrodata.*05$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.06$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.06$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*06 .farrodata.*06$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.07$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.07$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*07 .farrodata.*07$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.10$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.10$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*10 .farrodata.*10$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.11$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.11$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*11 .farrodata.*11$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.12$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.12$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*12 .farrodata.*12$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.13$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.13$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*13 .farrodata.*13$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.14$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.14$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*14 .farrodata.*14$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.15$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.15$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*15 .farrodata.*15$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.16$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.16$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*16 .farrodata.*16$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.17$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.17$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*17 .farrodata.*17$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.20$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.20$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*20 .farrodata.*20$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.21$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.21$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*21 .farrodata.*21$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.22$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.22$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*22 .farrodata.*22$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.23$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.23$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*23 .farrodata.*23$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.24$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.24$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*24 .farrodata.*24$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.25$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.25$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*25 .farrodata.*25$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.26$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.26$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*26 .farrodata.*26$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.27$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.27$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*27 .farrodata.*27$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.30$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.30$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*30 .farrodata.*30$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.31$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.31$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*31 .farrodata.*31$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.32$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.32$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*32 .farrodata.*32$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.33$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.33$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*33 .farrodata.*33$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.34$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.34$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*34 .farrodata.*34$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.35$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.35$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*35 .farrodata.*35$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.36$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.36$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*36 .farrodata.*36$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.37$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.37$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*37 .farrodata.*37$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.40$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.40$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*40 .farrodata.*40$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.41$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.41$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*41 .farrodata.*41$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.42$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.42$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*42 .farrodata.*42$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.43$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.43$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*43 .farrodata.*43$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.44$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.44$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*44 .farrodata.*44$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.45$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.45$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*45 .farrodata.*45$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.46$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.46$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*46 .farrodata.*46$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.47$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.47$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*47 .farrodata.*47$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.50$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.50$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*50 .farrodata.*50$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.51$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.51$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*51 .farrodata.*51$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.52$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.52$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*52 .farrodata.*52$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.53$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.53$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*53 .farrodata.*53$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.54$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.54$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*54 .farrodata.*54$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.55$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.55$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*55 .farrodata.*55$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.56$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.56$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*56 .farrodata.*56$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.57$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.57$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*57 .farrodata.*57$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.60$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.60$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*60 .farrodata.*60$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.61$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.61$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*61 .farrodata.*61$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.62$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.62$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*62 .farrodata.*62$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.63$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.63$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*63 .farrodata.*63$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.64$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.64$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*64 .farrodata.*64$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.65$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.65$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*65 .farrodata.*65$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.66$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.66$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*66 .farrodata.*66$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.67$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.67$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*67 .farrodata.*67$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.70$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.70$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*70 .farrodata.*70$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.71$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.71$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*71 .farrodata.*71$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.72$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.72$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*72 .farrodata.*72$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.73$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.73$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*73 .farrodata.*73$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.74$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.74$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*74 .farrodata.*74$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.75$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.75$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*75 .farrodata.*75$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.76$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.76$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*76 .farrodata.*76$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.77$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.77$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata.*77 .farrodata.*77$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.farrodata.XX$  0x0000000000000000        0x0 load address 0x0000000000005470
+.farrodata.XX$  0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.farrodata .farrodata$ .farrodata.*)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.00$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.00$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*00 .fardata.*00$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.01$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.01$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*01 .fardata.*01$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.02$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.02$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*02 .fardata.*02$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.03$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.03$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*03 .fardata.*03$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.04$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.04$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*04 .fardata.*04$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.05$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.05$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*05 .fardata.*05$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.06$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.06$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*06 .fardata.*06$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.07$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.07$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*07 .fardata.*07$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.10$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.10$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*10 .fardata.*10$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.11$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.11$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*11 .fardata.*11$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.12$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.12$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*12 .fardata.*12$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.13$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.13$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*13 .fardata.*13$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.14$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.14$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*14 .fardata.*14$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.15$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.15$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*15 .fardata.*15$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.16$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.16$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*16 .fardata.*16$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.17$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.17$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*17 .fardata.*17$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.20$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.20$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*20 .fardata.*20$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.21$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.21$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*21 .fardata.*21$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.22$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.22$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*22 .fardata.*22$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.23$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.23$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*23 .fardata.*23$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.24$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.24$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*24 .fardata.*24$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.25$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.25$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*25 .fardata.*25$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.26$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.26$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*26 .fardata.*26$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.27$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.27$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*27 .fardata.*27$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.30$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.30$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*30 .fardata.*30$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.31$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.31$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*31 .fardata.*31$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.32$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.32$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*32 .fardata.*32$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.33$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.33$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*33 .fardata.*33$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.34$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.34$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*34 .fardata.*34$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.35$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.35$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*35 .fardata.*35$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.36$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.36$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*36 .fardata.*36$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.37$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.37$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*37 .fardata.*37$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.40$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.40$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*40 .fardata.*40$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.41$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.41$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*41 .fardata.*41$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.42$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.42$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*42 .fardata.*42$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.43$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.43$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*43 .fardata.*43$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.44$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.44$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*44 .fardata.*44$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.45$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.45$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*45 .fardata.*45$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.46$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.46$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*46 .fardata.*46$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.47$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.47$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*47 .fardata.*47$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.50$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.50$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*50 .fardata.*50$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.51$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.51$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*51 .fardata.*51$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.52$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.52$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*52 .fardata.*52$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.53$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.53$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*53 .fardata.*53$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.54$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.54$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*54 .fardata.*54$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.55$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.55$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*55 .fardata.*55$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.56$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.56$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*56 .fardata.*56$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.57$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.57$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*57 .fardata.*57$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.60$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.60$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*60 .fardata.*60$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.61$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.61$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*61 .fardata.*61$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.62$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.62$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*62 .fardata.*62$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.63$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.63$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*63 .fardata.*63$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.64$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.64$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*64 .fardata.*64$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.65$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.65$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*65 .fardata.*65$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.66$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.66$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*66 .fardata.*66$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.67$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.67$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*67 .fardata.*67$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.70$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.70$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*70 .fardata.*70$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.71$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.71$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*71 .fardata.*71$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.72$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.72$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*72 .fardata.*72$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.73$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.73$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*73 .fardata.*73$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.74$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.74$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*74 .fardata.*74$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.75$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.75$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*75 .fardata.*75$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.76$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.76$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*76 .fardata.*76$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.77$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.77$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata.*77 .fardata.*77$)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.fardata.XX$    0x0000000000000000        0x0 load address 0x0000000000005470
+.fardata.XX$    0x0000000000000000        0x0 load address 0x0000000000005bb0
  *(.fardata .fardata$ .fardata.*)
                 0x0000000000000000                . = ALIGN (0x10)
 
-.data           0x0000000000000020      0x7a0 load address 0x0000000000005470
+.data           0x0000000000000020      0x860 load address 0x0000000000005bb0
                 0x0000000000000020                __sdata = .
  *crtbegin*.o(.ctors)
- .ctors         0x0000000000000020        0x2 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtbegin.o
+ .ctors         0x0000000000000020        0x2 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtbegin.o
  *(EXCLUDE_FILE(*crtend*.o) .ctors)
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
- .ctors         0x0000000000000022        0x2 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtend.o
+ .ctors         0x0000000000000022        0x2 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtend.o
  *crtbegin*.o(.dtors)
- .dtors         0x0000000000000024        0x2 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtbegin.o
+ .dtors         0x0000000000000024        0x2 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtbegin.o
  *(EXCLUDE_FILE(*crtend*.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
- .dtors         0x0000000000000026        0x2 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtend.o
+ .dtors         0x0000000000000026        0x2 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtend.o
                 0x0000000000000026                __DTOR_END__
  *(.msdos_init_rodata)
  *(.msdos_init_rodata.*)
  *(.rodata)
- .rodata        0x0000000000000028       0x36 C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o
- *fill*         0x000000000000005e        0x2 
- .rodata        0x0000000000000060       0x50 C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o
- .rodata        0x00000000000000b0        0x2 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-impure.o)
-                0x00000000000000b0                _global_impure_ptr
+ .rodata        0x0000000000000028       0x3a C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o
+ *fill*         0x0000000000000062        0x2 
+ .rodata        0x0000000000000064       0x50 C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o
+ .rodata        0x00000000000000b4        0x2 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-impure.o)
+                0x00000000000000b4                _global_impure_ptr
  *(.rodata.*)
  .rodata.str1.1
-                0x00000000000000b2      0x3f5 C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o
+                0x00000000000000b6      0x49f C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o
  .rodata.str1.1
-                0x00000000000004a7       0xe6 C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o
+                0x0000000000000555       0xe6 C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o
  .rodata.str1.1
-                0x000000000000058d       0x36 C:\Users\egoro\AppData\Local\Temp\ccJmQCPz.o
+                0x000000000000063b       0x36 C:\Users\egoro\AppData\Local\Temp\ccG0sbKi.o
  .rodata.str1.1
-                0x00000000000005c3      0x168 C:\Users\egoro\AppData\Local\Temp\cc7F5Vvy.o
+                0x0000000000000671      0x17a C:\Users\egoro\AppData\Local\Temp\cciBVjQP.o
  .rodata.str1.1
-                0x000000000000072b       0x47 C:\Users\egoro\AppData\Local\Temp\ccj5gMvB.o
+                0x00000000000007eb       0x47 C:\Users\egoro\AppData\Local\Temp\ccc53nFv.o
  .rodata.str1.1
-                0x0000000000000772        0xc C:\Users\egoro\AppData\Local\Temp\cc5scnTH.o
+                0x0000000000000832        0xc C:\Users\egoro\AppData\Local\Temp\ccc0QwPe.o
  .rodata.str1.1
-                0x000000000000077e        0x2 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-impure.o)
+                0x000000000000083e        0x2 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-impure.o)
  *(.autofloat_stdio.__ia16_have_printf_float.dprintf.v2)
  *(.autofloat_stdio.__ia16_have_printf_float._dprintf_r.v2)
  *(.autofloat_stdio.__ia16_have_printf_float.vdprintf.v2)
@@ -1450,145 +1452,145 @@ END GROUP
  *(.autofloat_stdio.__ia16_have_scanf_float._vfscanf_r.v2)
  *(.autofloat_stdio.__ia16_have_scanf_float.vsscanf.v2)
  *(.autofloat_stdio.__ia16_have_scanf_float._vsscanf_r.v2)
-                0x0000000000000780                . = .
+                0x0000000000000840                . = .
  *(.data)
- .data          0x0000000000000780        0x0 C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o
- .data          0x0000000000000780        0x0 C:\Users\egoro\AppData\Local\Temp\cchHvNGM.o
- .data          0x0000000000000780        0x0 C:\Users\egoro\AppData\Local\Temp\ccp0sN4f.o
- .data          0x0000000000000780        0x0 C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o
- .data          0x0000000000000780        0x0 C:\Users\egoro\AppData\Local\Temp\ccJmQCPz.o
- .data          0x0000000000000780        0x0 C:\Users\egoro\AppData\Local\Temp\cc7F5Vvy.o
- .data          0x0000000000000780        0x0 C:\Users\egoro\AppData\Local\Temp\ccj5gMvB.o
- .data          0x0000000000000780        0x0 C:\Users\egoro\AppData\Local\Temp\cc5scnTH.o
- .data          0x0000000000000780        0x5 C:\Users\egoro\AppData\Local\Temp\ccumGqSJ.o
-                0x0000000000000784                crit_hit
- .data          0x0000000000000785        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-int86-do.o)
- .data          0x0000000000000785        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-int86x-do.o)
- .data          0x0000000000000785        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-intr-call-0030.o)
- .data          0x0000000000000785        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-intr-call-0041.o)
- .data          0x0000000000000785        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(segread.o)
- .data          0x0000000000000785        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-close.o)
- .data          0x0000000000000785        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-creat.o)
- .data          0x0000000000000785        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findfirst.o)
- .data          0x0000000000000785        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findnext.o)
- .data          0x0000000000000785        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-getdiskfree.o)
- .data          0x0000000000000785        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-getftime.o)
- .data          0x0000000000000785        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-open.o)
- .data          0x0000000000000785        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-read.o)
- .data          0x0000000000000785        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-setftime.o)
- .data          0x0000000000000785        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-spawn.o)
- .data          0x0000000000000785        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-write.o)
- .data          0x0000000000000785        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-einval.o)
- .data          0x0000000000000785        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-really-set-errno.o)
- .data          0x0000000000000785        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-set-errno.o)
- *fill*         0x0000000000000785        0x1 
- .data          0x0000000000000786        0x2 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtbegin.o
-                0x0000000000000786                __dso_handle
- .data          0x0000000000000788        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtend.o
- .data          0x0000000000000788        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
- .data          0x0000000000000788        0x2 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-environ.o)
-                0x0000000000000788                environ
- .data          0x000000000000078a        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-errno.o)
- .data          0x000000000000078a        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-exit.o)
- .data          0x000000000000078a       0x32 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-impure.o)
-                0x000000000000078a                _impure_ptr
- .data          0x00000000000007bc        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memcmp.o)
- .data          0x00000000000007bc        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memcpy.o)
- .data          0x00000000000007bc        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memmove.o)
- .data          0x00000000000007bc        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memset.o)
- .data          0x00000000000007bc        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcat.o)
- .data          0x00000000000007bc        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strchr.o)
- .data          0x00000000000007bc        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcmp.o)
- .data          0x00000000000007bc        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcpy.o)
- .data          0x00000000000007bc        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strlen.o)
- .data          0x00000000000007bc        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strncat.o)
- .data          0x00000000000007bc        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strncpy.o)
- .data          0x00000000000007bc        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-__call_atexit.o)
- .data          0x00000000000007bc        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(udivsi3.o)
- .data          0x00000000000007bc        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(umodsi3.o)
- .data          0x00000000000007bc        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(ia16-ldivmodu.o)
+ .data          0x0000000000000840        0x0 C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o
+ .data          0x0000000000000840        0x0 C:\Users\egoro\AppData\Local\Temp\cc0JkXSC.o
+ .data          0x0000000000000840        0x0 C:\Users\egoro\AppData\Local\Temp\ccu82NaJ.o
+ .data          0x0000000000000840        0x0 C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o
+ .data          0x0000000000000840        0x0 C:\Users\egoro\AppData\Local\Temp\ccG0sbKi.o
+ .data          0x0000000000000840        0x0 C:\Users\egoro\AppData\Local\Temp\cciBVjQP.o
+ .data          0x0000000000000840        0x0 C:\Users\egoro\AppData\Local\Temp\ccc53nFv.o
+ .data          0x0000000000000840        0x0 C:\Users\egoro\AppData\Local\Temp\ccc0QwPe.o
+ .data          0x0000000000000840        0x5 C:\Users\egoro\AppData\Local\Temp\cccvWfE1.o
+                0x0000000000000844                crit_hit
+ .data          0x0000000000000845        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-int86-do.o)
+ .data          0x0000000000000845        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-int86x-do.o)
+ .data          0x0000000000000845        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-intr-call-0030.o)
+ .data          0x0000000000000845        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-intr-call-0041.o)
+ .data          0x0000000000000845        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(segread.o)
+ .data          0x0000000000000845        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-close.o)
+ .data          0x0000000000000845        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-creat.o)
+ .data          0x0000000000000845        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findfirst.o)
+ .data          0x0000000000000845        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findnext.o)
+ .data          0x0000000000000845        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-getdiskfree.o)
+ .data          0x0000000000000845        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-getftime.o)
+ .data          0x0000000000000845        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-open.o)
+ .data          0x0000000000000845        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-read.o)
+ .data          0x0000000000000845        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-setftime.o)
+ .data          0x0000000000000845        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-spawn.o)
+ .data          0x0000000000000845        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-write.o)
+ .data          0x0000000000000845        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-einval.o)
+ .data          0x0000000000000845        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-really-set-errno.o)
+ .data          0x0000000000000845        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-set-errno.o)
+ *fill*         0x0000000000000845        0x1 
+ .data          0x0000000000000846        0x2 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtbegin.o
+                0x0000000000000846                __dso_handle
+ .data          0x0000000000000848        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtend.o
+ .data          0x0000000000000848        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
+ .data          0x0000000000000848        0x2 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-environ.o)
+                0x0000000000000848                environ
+ .data          0x000000000000084a        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-errno.o)
+ .data          0x000000000000084a        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-exit.o)
+ .data          0x000000000000084a       0x32 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-impure.o)
+                0x000000000000084a                _impure_ptr
+ .data          0x000000000000087c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memcmp.o)
+ .data          0x000000000000087c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memcpy.o)
+ .data          0x000000000000087c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memmove.o)
+ .data          0x000000000000087c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memset.o)
+ .data          0x000000000000087c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcat.o)
+ .data          0x000000000000087c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strchr.o)
+ .data          0x000000000000087c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcmp.o)
+ .data          0x000000000000087c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcpy.o)
+ .data          0x000000000000087c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strlen.o)
+ .data          0x000000000000087c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strncat.o)
+ .data          0x000000000000087c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strncpy.o)
+ .data          0x000000000000087c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .data          0x000000000000087c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(udivsi3.o)
+ .data          0x000000000000087c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(umodsi3.o)
+ .data          0x000000000000087c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(ia16-ldivmodu.o)
  *(.data.*)
  *(.gcc_except_table)
-                0x00000000000007bc                __edata = .
-                0x00000000000007bc                . = (. == __sdata)?(. + 0x1):.
-                0x00000000000007c0                . = ALIGN (0x10)
- *fill*         0x00000000000007bc        0x4 
-                0x00000000000007c0                __edata_padded = .
+                0x000000000000087c                __edata = .
+                0x000000000000087c                . = (. == __sdata)?(. + 0x1):.
+                0x0000000000000880                . = ALIGN (0x10)
+ *fill*         0x000000000000087c        0x4 
+                0x0000000000000880                __edata_padded = .
 
-.bss            0x00000000000007c0     0xbb32 load address 0x0000000000005c10
-                0x00000000000007c0                __sbss = .
+.bss            0x0000000000000880     0xbd62 load address 0x0000000000006410
+                0x0000000000000880                __sbss = .
  *(.bss)
- .bss           0x00000000000007c0      0x140 C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o
- .bss           0x0000000000000900     0x1770 C:\Users\egoro\AppData\Local\Temp\cchHvNGM.o
- .bss           0x0000000000002070        0x0 C:\Users\egoro\AppData\Local\Temp\ccp0sN4f.o
- .bss           0x0000000000002070       0xcf C:\Users\egoro\AppData\Local\Temp\cc5Ob8uQ.o
- *fill*         0x000000000000213f        0x1 
- .bss           0x0000000000002140      0x5d2 C:\Users\egoro\AppData\Local\Temp\ccJmQCPz.o
- .bss           0x0000000000002712     0x19a2 C:\Users\egoro\AppData\Local\Temp\cc7F5Vvy.o
- .bss           0x00000000000040b4     0x2068 C:\Users\egoro\AppData\Local\Temp\ccj5gMvB.o
- .bss           0x000000000000611c        0x0 C:\Users\egoro\AppData\Local\Temp\cc5scnTH.o
- .bss           0x000000000000611c        0x0 C:\Users\egoro\AppData\Local\Temp\ccumGqSJ.o
- .bss           0x000000000000611c        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-int86-do.o)
- .bss           0x000000000000611c        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-int86x-do.o)
- .bss           0x000000000000611c        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-intr-call-0030.o)
- .bss           0x000000000000611c        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-intr-call-0041.o)
- .bss           0x000000000000611c        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(segread.o)
- .bss           0x000000000000611c        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-close.o)
- .bss           0x000000000000611c        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-creat.o)
- .bss           0x000000000000611c        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findfirst.o)
- .bss           0x000000000000611c        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findnext.o)
- .bss           0x000000000000611c        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-getdiskfree.o)
- .bss           0x000000000000611c        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-getftime.o)
- .bss           0x000000000000611c        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-open.o)
- .bss           0x000000000000611c        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-read.o)
- .bss           0x000000000000611c        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-setftime.o)
- .bss           0x000000000000611c        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-spawn.o)
- .bss           0x000000000000611c        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-write.o)
- .bss           0x000000000000611c        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-einval.o)
- .bss           0x000000000000611c        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-really-set-errno.o)
- .bss           0x000000000000611c        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-set-errno.o)
- .bss           0x000000000000611c        0x4 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtbegin.o
- .bss           0x0000000000006120        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtend.o
- .bss           0x0000000000006120       0x80 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
- .bss           0x00000000000061a0        0x2 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-environ.o)
- .bss           0x00000000000061a2        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-errno.o)
- .bss           0x00000000000061a2        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-exit.o)
- .bss           0x00000000000061a2        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-impure.o)
- .bss           0x00000000000061a2        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memcmp.o)
- .bss           0x00000000000061a2        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memcpy.o)
- .bss           0x00000000000061a2        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memmove.o)
- .bss           0x00000000000061a2        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memset.o)
- .bss           0x00000000000061a2        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcat.o)
- .bss           0x00000000000061a2        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strchr.o)
- .bss           0x00000000000061a2        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcmp.o)
- .bss           0x00000000000061a2        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcpy.o)
- .bss           0x00000000000061a2        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strlen.o)
- .bss           0x00000000000061a2        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strncat.o)
- .bss           0x00000000000061a2        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strncpy.o)
- .bss           0x00000000000061a2        0x2 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-__call_atexit.o)
-                0x00000000000061a2                _global_atexit
- .bss           0x00000000000061a4        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(udivsi3.o)
- .bss           0x00000000000061a4        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(umodsi3.o)
- .bss           0x00000000000061a4        0x0 c:/temp/github/pc98nc/src/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(ia16-ldivmodu.o)
+ .bss           0x0000000000000880      0x370 C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o
+ .bss           0x0000000000000bf0     0x1770 C:\Users\egoro\AppData\Local\Temp\cc0JkXSC.o
+ .bss           0x0000000000002360        0x0 C:\Users\egoro\AppData\Local\Temp\ccu82NaJ.o
+ .bss           0x0000000000002360       0xcf C:\Users\egoro\AppData\Local\Temp\ccM6Y0nW.o
+ *fill*         0x000000000000242f        0x1 
+ .bss           0x0000000000002430      0x5d2 C:\Users\egoro\AppData\Local\Temp\ccG0sbKi.o
+ .bss           0x0000000000002a02     0x19a2 C:\Users\egoro\AppData\Local\Temp\cciBVjQP.o
+ .bss           0x00000000000043a4     0x2068 C:\Users\egoro\AppData\Local\Temp\ccc53nFv.o
+ .bss           0x000000000000640c        0x0 C:\Users\egoro\AppData\Local\Temp\ccc0QwPe.o
+ .bss           0x000000000000640c        0x0 C:\Users\egoro\AppData\Local\Temp\cccvWfE1.o
+ .bss           0x000000000000640c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-int86-do.o)
+ .bss           0x000000000000640c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-int86x-do.o)
+ .bss           0x000000000000640c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-intr-call-0030.o)
+ .bss           0x000000000000640c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-intr-call-0041.o)
+ .bss           0x000000000000640c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(segread.o)
+ .bss           0x000000000000640c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-close.o)
+ .bss           0x000000000000640c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-creat.o)
+ .bss           0x000000000000640c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findfirst.o)
+ .bss           0x000000000000640c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-findnext.o)
+ .bss           0x000000000000640c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-getdiskfree.o)
+ .bss           0x000000000000640c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-getftime.o)
+ .bss           0x000000000000640c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-open.o)
+ .bss           0x000000000000640c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-read.o)
+ .bss           0x000000000000640c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-setftime.o)
+ .bss           0x000000000000640c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-spawn.o)
+ .bss           0x000000000000640c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(dos-write.o)
+ .bss           0x000000000000640c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-einval.o)
+ .bss           0x000000000000640c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-really-set-errno.o)
+ .bss           0x000000000000640c        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libi86.a(libi86-ret-set-errno.o)
+ .bss           0x000000000000640c        0x4 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtbegin.o
+ .bss           0x0000000000006410        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/crtend.o
+ .bss           0x0000000000006410       0x80 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib/dos-s-c0.o
+ .bss           0x0000000000006490        0x2 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-environ.o)
+ .bss           0x0000000000006492        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-errno.o)
+ .bss           0x0000000000006492        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-exit.o)
+ .bss           0x0000000000006492        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-impure.o)
+ .bss           0x0000000000006492        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memcmp.o)
+ .bss           0x0000000000006492        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memcpy.o)
+ .bss           0x0000000000006492        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memmove.o)
+ .bss           0x0000000000006492        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-memset.o)
+ .bss           0x0000000000006492        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcat.o)
+ .bss           0x0000000000006492        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strchr.o)
+ .bss           0x0000000000006492        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcmp.o)
+ .bss           0x0000000000006492        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strcpy.o)
+ .bss           0x0000000000006492        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strlen.o)
+ .bss           0x0000000000006492        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strncat.o)
+ .bss           0x0000000000006492        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-strncpy.o)
+ .bss           0x0000000000006492        0x2 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0/../../../../ia16-elf/lib\libc.a(lib_a-__call_atexit.o)
+                0x0000000000006492                _global_atexit
+ .bss           0x0000000000006494        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(udivsi3.o)
+ .bss           0x0000000000006494        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(umodsi3.o)
+ .bss           0x0000000000006494        0x0 c:/temp/ia16/ia16-elf/bin/../lib/gcc/ia16-elf/6.3.0\libgcc.a(ia16-ldivmodu.o)
  *(.bss.*)
  *(COMMON)
- COMMON         0x00000000000061a4     0x614e C:\Users\egoro\AppData\Local\Temp\ccLrQaCo.o
-                0x00000000000061a4                g_cmdlen
-                0x00000000000061a6                g_pan
-                0x000000000000c25e                g_act
-                0x000000000000c260                g_cmd
-                0x000000000000c2a2                g_msg
-                0x000000000000c2f2                __ebss = .
-                0x000000000000c2f8                __heap_end_minimum = ALIGN (0x8)
+ COMMON         0x0000000000006494     0x614e C:\Users\egoro\AppData\Local\Temp\ccohk7PB.o
+                0x0000000000006494                g_cmdlen
+                0x0000000000006496                g_pan
+                0x000000000000c54e                g_act
+                0x000000000000c550                g_cmd
+                0x000000000000c592                g_msg
+                0x000000000000c5e2                __ebss = .
+                0x000000000000c5e8                __heap_end_minimum = ALIGN (0x8)
                 0x0000000000000001                ASSERT ((. <= 0xfd00), Error: too large for a small-model .exe file.)
                 0x0000000000000001                ASSERT (((LOADADDR (.bss) + SIZEOF (.bss)) <= 0xa0000), Error: too large for a .exe file.)
                 0x0000000000000001                ASSERT ((ABSOLUTE (DEFINED (main!)?main!:0x0) == 0x0), Error: using non-segelf ld script with segelf program.)
                 0x0000000000000001                ASSERT ((ABSOLUTE (DEFINED (environ!)?environ!:0x0) == 0x0), Error: using non-segelf ld script with segelf library.)
-                0x000000000000079c                __ldata = (__edata - __sdata)
-                0x000000000000bb32                __lbss0 = (__ebss - __sbss)
-                0x000000000000bb33                __lbss1 = (__lbss0 + 0x1)
-                0x0000000000005d99                __lbss = (__lbss1 / 0x2)
-                0x0000000000001553                __msdos_initial_alloc_paras = (((((LOADADDR (.data) / 0x10) - (LOADADDR (.text) / 0x10)) + 0x10) + 0x1000) - (ADDR (.data) / 0x10))
+                0x000000000000085c                __ldata = (__edata - __sdata)
+                0x000000000000bd62                __lbss0 = (__ebss - __sbss)
+                0x000000000000bd63                __lbss1 = (__lbss0 + 0x1)
+                0x0000000000005eb1                __lbss = (__lbss1 / 0x2)
+                0x00000000000015c7                __msdos_initial_alloc_paras = (((((LOADADDR (.data) / 0x10) - (LOADADDR (.text) / 0x10)) + 0x10) + 0x1000) - (ADDR (.data) / 0x10))
 
 .tail
  *(.tail)

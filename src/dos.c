@@ -361,3 +361,42 @@ int dos_comspec(char *dst, int max)
 	}
 	return -1;
 }
+
+int dos_exepath(char *dst, int max)
+{
+	union REGS r;
+	unsigned psp;
+	unsigned envseg;
+	unsigned char __far *env;
+	unsigned off;
+	int n;
+
+	dst[0] = 0;
+	if (max <= 1)
+		return -1;
+	memset(&r, 0, sizeof(r));
+	r.h.ah = 0x62;
+	int86(0x21, &r, &r);
+	psp = r.x.bx;
+	envseg = *(unsigned __far *)__libi86_MK_FP(psp, 0x2C);
+	if (envseg == 0)
+		return -1;
+	env = (unsigned char __far *)__libi86_MK_FP(envseg, 0);
+	off = 0;
+	while (off < 32000 && env[off] != 0) {
+		while (off < 32000 && env[off] != 0)
+			off++;
+		if (off < 32000)
+			off++;
+	}
+	if (off >= 32000)
+		return -1;
+	off += 3;
+	n = 0;
+	while (off < 32767 && env[off] != 0 && n + 1 < max) {
+		dst[n++] = (char)env[off];
+		off++;
+	}
+	dst[n] = 0;
+	return n > 0 ? 0 : -1;
+}
